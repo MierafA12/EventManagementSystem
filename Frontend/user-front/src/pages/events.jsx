@@ -289,6 +289,7 @@ export default function Events() {
                         <MapPin className="h-4 w-4 mr-3 text-primary flex-shrink-0" />
                         <span>{event.location}</span>
                       </div>
+                      
                     )}
                     {event.fee > 0 && (
                       <div className="pt-3 border-t">
