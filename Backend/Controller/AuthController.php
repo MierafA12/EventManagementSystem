@@ -9,6 +9,8 @@ class AuthController {
         $this->userModel = $userModel;
     }
 
+    
+
     public function login($request) {
         $data = json_decode($request, true);
 
